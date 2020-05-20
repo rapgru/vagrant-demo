@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   # Base Box
-  config.vm.box = "generic/ubuntu1604"
+  config.vm.box = "hashicorp/bionic64"
   
   # VM Options
   config.vm.provider "virtualbox" do |v|
