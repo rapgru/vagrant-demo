@@ -11,7 +11,7 @@ def get_id():
   # build json
   id = {"id": num}
   # return json
-  return json.dumps(companies)
+  return json.dumps(id)
 
 if __name__ == '__main__':
-    api.run()
+    api.run(host='0.0.0.0', port=80)
